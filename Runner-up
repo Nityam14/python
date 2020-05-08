@@ -1,0 +1,9 @@
+
+n = int(input())
+a = list(map(int,raw_input().strip().split()))[:n]
+
+l=max(a)
+while (max(a)==l):
+    a.remove(max(a))
+
+print(max(a))
